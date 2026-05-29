@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño de html y css</title>
+  </head>
+  <body>
+  <div class="caja-especial">
+<h2>El Arte del Póster</h2>
+
+<p>
+Una selección de procesos creativos, trucos de diseño, experimentos visuales y tutoriales de mis referentes preferidos de diseño de carteles.
+   <h3>Dzn Gio</h3>
+    <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Xvp2kinNeuQ?si=9qu_Xt8u9Lzg1Nz-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+  <h3>Eze Cichello</h3>
+    <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/jfYMLStivxc?si=p3uj82r3RGj9-Uuf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+   <div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wEocy9cz3yw?si=e_GpR7_DgcO7iqk_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     </div>
+    
+<h3>Edgykatrina</h3>
+    
+    <div>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/M2mek13XIlM?si=2nxKFVvYq2yolQ22" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+    <div>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/OCnQ0i3svdI?si=qnLjRgzkLLvk_IKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      </div>
+    <a href="index.html" class="btn-navegacion">← Volver al inicio</a>
+    </body>
+</html>

@@ -1,0 +1,115 @@
+/* 1. IMPORTACIÓN DE GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Roboto+Slab:wght@400;700&display=swap');
+
+/* ESTILOS BASE */
+body {
+    font-family: 'Roboto', sans-serif; /* Párrafos en Roboto normal */
+    line-height: 1.6;
+    color: #333;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+}
+
+/* Punto 1: h1 - Roboto Slab Bold */
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 5rem;
+    color: #e63946;
+    border-bottom: 2px solid #e63946;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+/* Punto 2: h2 - Roboto Slab Normal con color definido */
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: #e63946; 
+    font-size: 1.8rem;
+    margin-top: 40px;
+}
+
+/* h3 para nombres de artistas */
+h3 {
+    font-family: 'Roboto Slab', serif;
+    color: #457b9d;
+    border-left: 5px solid #457b9d;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+/* Punto 3: Párrafos */
+p {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+/* Punto 4: Enlaces - Roboto Slab Italic y Subrayado */
+a {
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    text-decoration: underline;
+    color: #1d3557;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #e63946;
+    text-decoration: none; /* Se quita el subrayado al pasar el mouse */
+}
+
+/* BOTÓN DE NAVEGACIÓN (Siguiente página / Inicio) */
+.btn-navegacion {
+    display: inline-block;
+    background-color: #1d3557;
+    color: #fff !important;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-style: normal; /* Para que no sea italic como los otros links */
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.btn-navegacion:hover {
+    background-color: #e63946;
+}
+
+/* DIV CON COLOR DE FONDO Y ESTILO DE BORDE */
+.caja-especial {
+    background-color: #f0f4f8;
+    border: 2px dashed #457b9d;
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 8px;
+}
+
+/* PUNTO 5: Multimedia en FILAS (Forzado una al lado de la otra) */
+.cont-flex {
+    display: flex;
+    flex-direction: row;    /* Fuerza la dirección en fila */
+    flex-wrap: nowrap;      /* PROHIBE que se bajen a la siguiente línea */
+    gap: 20px;              /* Espacio entre posters */
+    justify-content: center; /* Centra el grupo de imágenes */
+    align-items: flex-start; /* Las alinea por la parte de arriba */
+    margin: 40px 0;
+    width: 100%;            /* Usa todo el ancho disponible del div blanco */
+}
+
+.cont-flex img {
+    /* Esto hace que cada una ocupe exactamente la mitad del espacio disponible */
+    width: 50%;             
+    max-width: 450px;       /* Tamaño máximo para que no se vean gigantes en monitores muy grandes */
+    height: auto;           /* Mantiene la proporción */
+    
+    border-radius: 4px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    border: 10px solid #fff; /* Marco elegante de poster */
+    
+    /* Esto ayuda a que si las fotos tienen tamaños distintos, se vean ordenadas */
+    object-fit: contain; 
+}

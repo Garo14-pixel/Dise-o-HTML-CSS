@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño de html y css</title>
+  </head>
+  <body>
+<div class="caja-especial">
+<h1>DISEÑO DE POSTERS</h1>
+<h2>¿Qué es un póster?</h2>
+
+<p>
+Un cartel es una pieza de diseño que puede contener imágenes, texto o graficos con el fin de <strong>transmitir información específica y captar la atención del público</strong>. Pueden presentarse en diferentes tamaños y formatos digitales o impresos. Se consideran <strong>una de las primeras formas de publicidad visual</strong>, que surgieron en el siglo XIX. Los primeros carteles tenían una orientación política, pero pronto se popularizó su uso para anunciar productos. Con el auge de los carteles, su uso se expande a diversos ámbitos, dando lugar a numerosos estilos y enfoques en su diseño.
+    </p>
+ <div class="cont-flex">
+       <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfkmqD3VY00k81AXfk9SfN9qCkfFoGbysQfQ&s alt="Posterlunchdate">
+       <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXgs1MeGyJ9-glMCRfgeOci9xwTN9PFEVvKg&s alt="poster2">
+     </div>
+      
+  <h2>Estilos de carteles</h2>
+    <p>
+<strong>- Carteles Tipográficos:</strong> El texto y las letras son los protagonistas absolutos. La tipografía misma actúa como la imagen principal, comunicando el mensaje a través de su forma, tamaño y color. 
+ </p>
+    <p>
+<strong>- Carteles de Fotografía:</strong> Utiliza la fotografía como elemento visual principal, combinándola con  titulares cortos, tipografía grande y mensajes directos para no saturar la imagen.
+</p>
+    <p>
+<strong>- Carteles Gráficos:</strong> Pura ilustración y geometría. Usan dibujos, vectores, formas abstractas y metáforas visuales para explicar conceptos de forma artística.
+    </p> 
+   <div class="cont-flex">   
+  <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAir2p-SlM5CVBp_DzXOfHRkesbuEIr2WD2Q&s alt="poster 5">  
+        <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqOXo5oll4VI9fcfx5rXunUhUhpYuYLc16Dg&s alt="poster 3">
+  </div>
+   <figcaption>
+   <p class="creditos">
+    Poster diseñados por <a href="http://instagram.com/edgykatrina" target="_blank">edgykatrina</a>
+</p>
+      </figcaption>
+</div>
+    <a href="multimedia.html" class="btn-navegacion">Siguiente →</a>
+  </body>
+</html>
